@@ -21,8 +21,8 @@ const HeroSection = () => {
         className="mb-16 mt-24 sm:p-0 flex flex-col items-start justify-start relative"
         id="#home"
       >
-        <div className="flex flex-col justify-start items-start relative z-10 text-center">
-          <div className="text-4xl pb-4 md:text-5xl lg:text-6xl font-bold text-center max-w-5xl ">
+        <div className="flex flex-col justify-start items-start relative z-10">
+          <div className="text-4xl pb-4 md:text-5xl lg:text-6xl font-bold max-w-5xl ">
             hi, it's John here 👋
           </div>
           <p className="pb-1 text-lg sm:text-base md:text-xl text-dark-200 dark:text-slate-400">

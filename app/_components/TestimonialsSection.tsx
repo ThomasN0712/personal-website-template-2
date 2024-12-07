@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
   const currentTestimonial = testimonialItems[curIndex];
 
   return (
-    <div ref={ref} className="mb-32 space-y-10">
+    <div ref={ref} className="mb-16 space-y-10">
       <div className="flex items-start gap-4">
         <div className="text-primary text-9xl font-bold leading-none">“</div>
         <motion.div
