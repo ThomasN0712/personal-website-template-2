@@ -21,8 +21,8 @@ const navItems = [
 const Homepage = () => {
   return (
     <main className="flex flex-col px-5 sm:px-10 relative">
-      <div className="max-w-7xl mx-auto w-full">
-        <Navbar navItems={navItems} />
+      <div className="max-w-4xl mx-auto w-full">
+        {/* <Navbar navItems={navItems} /> */}
         <HeroSection />
         <BackgroundSection />
         <SkillsSection />

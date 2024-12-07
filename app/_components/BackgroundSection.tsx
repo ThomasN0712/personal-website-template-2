@@ -11,11 +11,11 @@ const BackgroundSection = () => {
   return (
     <div className="relative z-10" id="about">
       <div className="flex space-x-4 mb-8 justify-center">
-        <div className="relative w-full max-w-lg">
+        <div className="relative w-full max-w-xl">
           <div className="flex bg-gray-400 dark:bg-gray-800 rounded-lg overflow-hidden">
             {/* Slider Indicator */}
             <div
-              className={`absolute top-0 left-0 w-1/2 h-full bg-gray-800 dark:bg-gray-400 transition-transform duration-300 rounded-lg ${
+              className={`absolute p-1 top-1 left-2 w-[calc(50%-0.5rem)] h-[calc(100%-0.5rem)] bg-gray-800 dark:bg-gray-400 transition-transform duration-300 rounded-lg ${
                 activeTab === "Education" ? "transform translate-x-full" : ""
               }`}
             ></div>

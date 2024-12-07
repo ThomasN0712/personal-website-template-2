@@ -51,14 +51,14 @@ const SkillsSection = () => {
       />
 
       {/* Foreground Content */}
-      <div className="relative z-10 py-16 sm:py-24">
+      <div className="relative z-10 py-16">
         <div className="space-y-4 mb-10">
           <motion.h1
             initial={{ opacity: 0, x: -75 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className="text-3xl min-[430px]:text-4xl md:text-5xl font-bold dark:text-stone-200"
+            className="text-2xl min-[430px]:text-3xl md:text-4xl font-bold dark:text-stone-200"
           >
             Technologies I Use
           </motion.h1>
